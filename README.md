@@ -39,10 +39,3 @@ In order to build their datalake Spark is going to be used to build an ETL piple
 * Unzip the data: `unzip log-data.zip` and `song-data.zip`
 * Open the terminal and execute the etl: `python etl.py`
 
-### Run in AWS EMR cluster:
-
-* Create a cluster and buckets
-* Upload pyspark script
-* Execute etl
-
-## [Optional] Provide example queries and results for song play analysis
