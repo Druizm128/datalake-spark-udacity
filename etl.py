@@ -156,8 +156,10 @@ def process_log_data(spark, input_data, output_data):
 
 def main():
     spark = create_spark_session()
-    input_data = "data/"
-    output_data = "data/"
+    #input_data = "data/"
+    #output_data = "data/"
+    input_data = "s3://udacity-dend/"
+    output_data = "s3://data-lake-sparkify-project-may-2021"
     process_song_data(spark, input_data, output_data)    
     process_log_data(spark, input_data, output_data)
 
