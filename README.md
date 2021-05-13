@@ -34,8 +34,12 @@ In order to build their datalake Spark is going to be used to build an ETL piple
 
 ## Instructions:
 
-### Run Locally:
+### Run Locally a Sample Test:
 
 * Unzip the data: `unzip log-data.zip` and `song-data.zip`
 * Open the terminal and execute the etl: `python etl.py`
 
+### Run Locally Full Test:
+
+* Connect to s3 to download data in the etl.py file.
+* Open the terminal and execute the etl: `python etl.py`
